@@ -15,7 +15,7 @@ A new Flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'onnxruntime-objc', '1.15.0'
+  s.dependency "onnxruntime-objc", "~> 1.18.0"
   s.platform = :ios, '11.0'
 
   s.swift_version = '5.0'
